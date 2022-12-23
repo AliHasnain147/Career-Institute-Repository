@@ -1,0 +1,28 @@
+.wrapper2 .carousel img{
+  width: 30%;
+}
+
+.wrapper2 .carousel {
+  max-width: 1200px;
+  margin: 20px;
+  padding: 0 30px;
+}
+.owl-dots {
+  text-align: center;
+  margin-top: 40px;
+}
+.owl-dot {
+  height: 15px;
+  width: 45px;
+  margin: 0 5px;
+  border-radius: 25px;
+  border: 2px solid #0072bc !important;
+  cursor: pointer;
+  outline: none;
+  transition: all 0.3s ease;
+}
+
+.owl-dot:hover,
+.owl-dot:active {
+  background: #0072bc !important;
+}

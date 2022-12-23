@@ -1,0 +1,221 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
+.line-news {
+    height: 4px;
+    width: 60px;
+    background-color: #FF5500;
+}
+
+.underline {
+    color: #757575;
+}
+
+.span-1 {
+    font-weight: bold;
+    color: black;
+}
+
+.ptext-3 {
+    margin: 10px;
+    font-size: 18px;
+}
+
+.certificate {
+    padding-left: 40px !important;
+    width: 10px;
+}
+
+
+.ptext-1 {
+    font-size: 30px;
+    width: 300px;
+    margin: 20px;
+    margin-bottom: 0px;
+}
+
+
+.verify-code {
+    width: 300px !important;
+    height: 60px;
+    padding-left: 40px;
+    border: 0.5px solid rgba(132, 124, 124, 0.3);
+    outline: none;
+}
+
+.full-lock {
+    padding-left: 15px;
+    position: absolute;
+}
+
+.request-btn {
+    border: 2px solid #f0af22;
+    border-radius: 30px;
+    height: 50px;
+    width: 250px;
+    color: #F05A22;
+}
+
+.request-btn:hover {
+    background-image: linear-gradient(to right, #F05A22, #FAAA17);
+    color: white;
+}
+
+.verify-btn {
+    font-size: 25px;
+}
+
+/* Tablet Screen */
+@media only screen and (min-width:768px) {
+    .line-news {
+        height: 4px;
+        width: 60px;
+        background-color: #FF5500;
+    }
+
+    .underline {
+        color: #757575;
+    }
+
+    .span-1 {
+        font-weight: bold;
+        color: black;
+    }
+
+    .certificate {
+        padding-left: 50px !important;
+        width: auto;
+    }
+
+    .ptext-1 {
+        font-size: 41px;
+        width: 850px;
+    }
+
+    .ptext-3 {
+        font-size: 19px;
+        margin: 10px;
+        margin-left: 120px;
+    }
+
+    .verify-code {
+        width: 450px !important;
+        height: 60px;
+        padding-left: 40px;
+        border: 0.5px solid rgba(132, 124, 124, 0.3);
+        outline: none;
+    }
+
+    .full-lock {
+        padding-left: 15px;
+        position: absolute;
+    }
+
+    .request-btn {
+        border: 2px solid #f0af22;
+        border-radius: 30px;
+        height: 50px;
+        width: 300px;
+        color: #F05A22;
+    }
+
+    .request-btn:hover {
+        background-image: linear-gradient(to right, #F05A22, #FAAA17);
+        color: white;
+    }
+
+    .verify-btn {
+        font-size: 25px;
+    }
+
+    .code-div {
+        margin-left: 80px;
+    }
+
+    .gt-btn {
+        margin-left: 80px;
+    }
+
+    .numb {
+        font-size: 15px;
+        font-weight: 15px !important;
+    }
+
+
+}
+
+
+
+/* Laptop Screen */
+@media screen and (min-width:1024px) {
+    .line-news {
+        height: 4px;
+        width: 60px;
+        background-color: #FF5500;
+    }
+
+    .underline {
+        color: #757575;
+    }
+
+    .span-1 {
+        font-weight: bold;
+        color: black;
+    }
+
+    .certificate {
+        padding-left: 60px !important;
+    }
+
+    .ptext-1 {
+        font-size: 39px;
+        width: 850px;
+    }
+
+    .ptext-3 {
+        font-size: 18px;
+        margin: 10px;
+    }
+
+    .ptext-1 {
+        margin-left: 0px;
+    }
+
+    .verify-code {
+        width: 450px !important;
+        height: 60px;
+        padding-left: 40px;
+        border: 0.5px solid rgba(132, 124, 124, 0.3);
+        outline: none;
+
+    }
+
+    .full-lock {
+        padding-left: 15px;
+        position: absolute;
+    }
+
+    .request-btn {
+        border: 2px solid #f0af22;
+        border-radius: 30px;
+        height: 50px;
+        width: 300px;
+        color: #F05A22;
+    }
+
+    .request-btn:hover {
+        background-image: linear-gradient(to right, #F05A22, #FAAA17);
+        color: white;
+    }
+
+    .verify-btn {
+        font-size: 25px;
+    }
+}

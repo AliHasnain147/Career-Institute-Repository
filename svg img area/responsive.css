@@ -1,0 +1,240 @@
+    /* <!-- counter app css --> */
+    #funfact-area {
+        padding: 21px 0px;
+        margin: 0px 45px;
+    }
+
+    .funfact-icon {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-right: 5px;
+    }
+
+    .funfact-icon img {
+        width: 60px;
+    }
+
+    .funfact-text {
+        font-size: 10px;
+
+    }
+
+    .funfact-text h1 {
+        font-size: 23px;
+    }
+
+    /*== FunFact CSS End ==*/
+
+
+
+    
+
+
+
+@media only screen and (min-width : 321px) and (max-width: 480px) {
+
+    /* SPACE TO WORK SECTION START */
+    .single-stw-card {
+        margin-top: 12px;
+    }
+
+    h4.single-stw-title {
+        font-size: 20px;
+    }
+
+    .single-stw-span span {
+        font-size: 16px;
+    }
+
+    /* SPACE TO WORK SECTION END */
+    /* MINOR CHANGES INDEX START*/
+    .funfact-text h1 {
+        font-size: 30px;
+    }
+
+    .news-heading {
+        font-size: 36px;
+    }
+
+    .sm-line-news {
+        margin-bottom: 5px;
+    }
+
+    .featured-courses-head-ui .col-lg-4 h1 {
+        font-size: 31px;
+    }
+
+    .footer-contact-form input {
+        font-size: 13px !important;
+    }
+
+    .footer-contact-form i {
+        font-size: 20px !important;
+    }
+
+    .footer-contact-icon-btn {
+        font-size: 20px !important;
+    }
+
+    .sec-col-res-fa {
+        justify-content: center !important;
+    }
+
+    .footer-social {
+        padding-right: 0px;
+    }
+
+    .review-section .col-lg-12 h1 {
+        font-size: 30px;
+    }
+
+    .about-sec-heading-ai .sm-line-news {
+        margin-bottom: 25px;
+    }
+
+    .cards-outer-ui {
+        padding: 30px !important;
+    }
+
+    .ceo-section {
+        padding-top: 45px;
+        padding-bottom: 45px;
+    }
+
+    /* MINOR CHANGES INDEX END*/
+    /* MINOR CHANGES COURSE PAGE START */
+    .basic-pagination {
+        margin-top: 10px !important;
+    }
+
+    .Courses-sec-heading-ai .sm-line-news {
+        margin-bottom: 25px;
+    }
+
+    .news-slider-content-ai .news-info {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .tags-sec-ai a {
+        font-size: 14px;
+    }
+
+    .search-courses-ai .sm-line-news {
+        margin-left: 43%;
+    }
+
+    .lates-news-header-ai .sm-line-news {
+        margin-bottom: 20px;
+    }
+
+    .courses-tag-ai .sm-line-news {
+        margin-left: 43%;
+    }
+
+    /* MINOR CHANGES COURSE PAGE END */
+   
+   
+    
+   
+
+    /* Funfact Area Css Responsive Ai Start*/
+
+    #funfact-area {
+        margin: 0% !important;
+    }
+
+    .single-funfact {
+        justify-content: space-evenly;
+        border-bottom: 2px solid white;
+        margin-bottom: 30px;
+    }
+
+    .funfact-text,
+    .funfact-icon {
+        width: 94px;
+        border: none;
+    }
+
+    .funfact-text {
+        padding-right: 150px;
+    }
+
+    /* Funfact Area Css Responsive Ai END*/
+    /* MISSION SECTION START */
+    .mhn-section h1 {
+        font-size: 25px;
+    }
+
+    .ceo-para {
+        letter-spacing: 0px;
+        font-size: 15px;
+        opacity: 0.6;
+        padding-top: 15px !important;
+    }
+
+    /* MISSION SECTION END */
+
+}
+
+@media only screen and (max-width:1199px) {
+    .dropdown-content-useful a:hover {
+        transform: translateX(5px);
+    }
+}
+
+/* Block-News-ai-responsive  START*/
+@media only screen and (min-width : 768px) and (max-width : 991px) {
+
+    /* SPACE TO WORK SECTION START */
+    .single-stw-card {
+        margin-top: 12px;
+    }
+
+    h4.single-stw-title {
+        font-size: 20px;
+    }
+
+    .single-stw-span span {
+        font-size: 16px;
+    }
+
+    /* SPACE TO WORK SECTION END */
+    /* Styles */
+    /* FUN FACT START */
+    /* funfact Area css AI Start */
+    .single-funfact {
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        padding-left: 30px;
+    }
+
+    .funfact-text {
+        border: none;
+    }
+
+    .funfact-text {
+        border-left: none;
+    }
+
+    #funfact-area {
+        margin: 28px 35px;
+    }
+
+    /* FUN FACT END */
+    /*---------------------------
+     Course Card CSS START
+     --------------------------  */
+    .category i {
+        font-size: 15px;
+    }
+
+    .category span {
+        font-size: 15px;
+    }
+}
+    /*---------------------------
+     Course Card CSS START
+     --------------------------  */

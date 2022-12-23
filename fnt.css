@@ -1,0 +1,61 @@
+@font-face {
+    font-family: myFont;
+    src: url(G-fonts/Montserrat.ttf);
+}
+.fntsf{
+    font-family: myFont !important;
+}
+.navlink-response-ui{
+    font-family: myFont !important;
+}
+.dropdown-content-pages-ui{
+    font-family: myFont !important;
+}
+.span-title{
+    font-family: myFont !important;
+}
+.span-content{
+    font-family: myFont !important;
+}
+.span-title{
+    font-family: myFont !important;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: myFont !important;
+}
+p{
+    font-family: myFont !important;
+}
+input{
+    font-family: myFont !important;
+}
+.responsivenessss{
+    font-family: myFont !important;
+}
+span{
+    font-family: myFont !important;
+}
+button{
+    font-family: myFont !important;
+}
+b{
+    font-family: myFont;
+}
+label{
+    font-family: myFont;
+}
+.dropdown-content-pages-ui a{
+    font-family: myFont !important;
+}
+.head-heading-ui{
+    font-family: myFont !important;
+}
+select{
+    font-family: myFont !important;
+}
+option{
+    font-family: myFont;
+}
+textarea{
+    font-family: myFont !important;
+}

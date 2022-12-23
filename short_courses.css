@@ -1,0 +1,270 @@
+.span-h {
+    font-size: 22px;
+}
+
+.bulb {
+    font-size: 22px;
+    color: #e02222;
+    cursor: pointer;
+}
+
+.bulb:hover {
+    color: black;
+}
+
+.courses-h {
+    font-size: 40px;
+}
+
+.spam-1 {
+
+    font-weight: 0% !important;
+}
+
+.spam-1 {
+    font-weight: normal;
+}
+
+.owl-img {
+    border-radius: 15px;
+}
+
+.first-heading {
+    font-size: 18px;
+    padding-top: 5px;
+}
+
+.first-heading a {
+    text-decoration: none;
+    color: black;
+}
+
+.first-heading a:hover {
+    color: #F05A22;
+}
+
+.para-1 {
+    font-size: 18px;
+}
+
+.rating {
+    display: flex;
+}
+
+.rate-star {
+    font-size: 20px;
+    color: #EA6645;
+}
+
+.star {
+    color: #FAAA17;
+    font-size: 15px;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+
+.people-see {
+    font-size: 15px;
+    padding-left: 15px;
+    padding-top: 5px;
+}
+
+.show-btn {
+    border-radius: 30px;
+    font-size: 15px;
+    height: 35px;
+    width: 100px;
+    margin-left: 15px;
+    margin-bottom: 50px;
+    border: 2px solid #EA6645;
+    color: #EA6645;
+}
+
+.show-btn:hover {
+    background-color: #EA6645;
+    color: white;
+}
+
+
+/* Tablet Screen */
+@media only screen and (min-width:768px) {
+
+    .span-h {
+        font-size: 22px;
+    }
+
+    .bulb {
+        font-size: 22px;
+        color: #e02222;
+        cursor: pointer;
+    }
+
+    .bulb:hover {
+        color: black;
+    }
+
+    .courses-h {
+        font-size: 40px;
+    }
+
+
+    .a-course {
+        margin-left: 6px !important;
+        margin-right: 50px;
+    }
+
+    .owl-img {
+        border-radius: 15px;
+    }
+
+    .first-heading {
+        font-size: 18px;
+        padding-top: 5px;
+    }
+
+    .first-heading a {
+        text-decoration: none;
+        color: black;
+    }
+
+    .first-heading a:hover {
+        color: #F05A22;
+    }
+
+    .para-1 {
+        font-size: 18px;
+    }
+
+    .rating {
+        display: flex;
+    }
+
+    .rate-star {
+        font-size: 20px;
+        color: #EA6645;
+    }
+
+    .star {
+        color: #FAAA17;
+        font-size: 15px;
+        padding-left: 10px;
+        padding-top: 5px;
+    }
+
+    .people-see {
+        font-size: 15px;
+        padding-left: 15px;
+        padding-top: 5px;
+    }
+
+    .show-btn {
+        border-radius: 30px;
+        font-size: 15px;
+        height: 35px;
+        width: 100px;
+        margin-left: 15px;
+        margin-bottom: 50px;
+        border: 2px solid #EA6645;
+        color: #EA6645;
+    }
+
+    .show-btn:hover {
+        background-color: #EA6645;
+        color: white;
+    }
+}
+
+/* Laptop Screen */
+@media screen and (min-width:1024px) {
+    .span-h {
+        font-size: 22px;
+    }
+
+    .bulb {
+        font-size: 22px;
+        color: #e02222;
+        cursor: pointer;
+    }
+
+    .bulb:hover {
+        color: black;
+    }
+
+    .courses-h {
+        font-size: 40px;
+    }
+
+    .spam-1 {
+
+        font-weight: 0% !important;
+    }
+
+    .spam-1 {
+        font-weight: normal;
+    }
+
+    .owl-img {
+        border-radius: 15px;
+    }
+
+    .owl-img:hover {
+        transform: scale(1.03);
+    }
+
+    .first-heading {
+        font-size: 18px;
+        padding-top: 5px;
+    }
+
+    .first-heading a {
+        text-decoration: none;
+        color: black;
+    }
+
+    .first-heading a:hover {
+        color: #F05A22;
+        text-decoration: none !important;
+    }
+
+    .para-1 {
+        font-size: 18px;
+    }
+
+    .rating {
+        display: flex;
+    }
+
+    .rate-star {
+        font-size: 20px;
+        color: #EA6645;
+    }
+
+    .star {
+        color: #F7C100 !important;
+        font-size: 15px;
+        padding-left: 10px;
+        padding-top: 5px;
+    }
+
+    .people-see {
+        font-size: 15px;
+        padding-left: 15px;
+        padding-top: 5px;
+    }
+
+    .show-btn {
+        border-radius: 30px;
+        font-size: 15px;
+        height: 35px;
+        width: 100px;
+        margin-left: 15px;
+        border: 2px solid #EA6645;
+        color: #EA6645;
+    }
+
+    .show-btn:hover {
+        background-color: #EA6645;
+        color: white;
+    }
+
+}

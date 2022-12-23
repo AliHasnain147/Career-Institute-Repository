@@ -1,0 +1,291 @@
+
+/* Custom-col-replacement Section Start*/
+@media only screen and (min-width:992px){
+    replace-col-ui{
+        margin-inline: 15px;
+    }
+}
+@media only screen and (min-width:481px) and (max-width:768px){
+    .replace-col-ui{
+        margin-inline: 15px;
+    }
+}
+/* Custom-col-replacement Section End*/
+/* Back To Top Arrow CSS Start */
+#backtop {
+    position: fixed;
+    left:auto;
+    right: 20px;
+    top:auto;
+    bottom: 20px;
+    outline: none;
+    overflow:hidden;
+    color:#fff;
+    text-align:center;
+    background: linear-gradient(280deg, rgba(96,195,128,1) 0%, rgba(30,155,183,1) 80%);
+    height:45px;
+    transform: translateY(0rem);
+    width:45px;
+    line-height:40px;
+    border-radius:50px;
+    cursor:pointer;
+    transition:all 0.3s linear;
+    z-index:999999;
+
+    opacity:1;
+    display:none;
+}
+#backtop:hover {
+    background-color:#27CFC3;
+}
+#backtop.mcOut {
+    opacity:0;
+    transform: translateY(-90rem);
+}
+/* Back To Top Arrow CSS END*/
+
+/* Header SECTION START */
+/* Top-nav-start */
+.top-nav-ui-row{
+    display: inline-flex;
+    padding: 0px ;
+}
+.top-nav-outer-ui{
+    background-color: #05284A;
+}
+.top-nav-outer-ui .nav-link{
+    color: #fff !important;
+    cursor: pointer;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 1rem 1rem;
+    margin: 10px 0px;
+    transition: all 0.3s ease;
+}
+.top-nav-outer-ui .nav-link:hover{
+    color: #ff5500 !important;
+}
+.seperator-ui{
+    background-color: transparent;
+    /* border: 1px solid #fff !important; */
+    margin-right: auto;
+    width: 80%;
+}
+.p-nav-link{
+    transform: translateX(30px);
+}
+/* top-nav-end */
+/* bottom-nav-start */
+.bottom-nav-bg-ui{
+    background: linear-gradient(280deg, rgba(96,195,128,1) 0%, rgba(30,155,183,1) 80%);
+}
+.bottom-nav-links-ui .nav-link{
+    color: #fff !important;
+    font-weight: bold;
+    padding: 10px !important;
+    transition: all 0.3s ease;
+}
+@media only screen and (min-width:1210px){
+    .logo-div-ui{
+        margin-left: 20px;
+    }
+}
+.navbar-logo-ui{
+    width: 400px;
+    padding: 10px 0px;
+}
+/* dropdown Start */
+/* dropdown-links-start */
+  .dropdown-pages-ui {
+    position: relative;
+    display: inline-flex;
+    text-decoration: none;
+    transition: all 0.4s ease;
+  }
+  .dropdown-pages-ui:hover{
+      cursor: pointer;
+  }
+  
+  .dropdown-content-pages-ui {
+    
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 255px;
+    max-width: 300px;
+    top: 41px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: -1;
+    border-radius: 10px;
+    transition: all 0.4s ease;
+    opacity: 0;
+    transform: translateY(-10px);
+    overflow: hidden;
+  }
+  
+  .dropdown-content-pages-ui a {
+    color: rgb(95, 95, 95);
+    font-weight: bold;
+    padding: 12px 16px;
+    text-decoration: none !important;
+    display: block;
+  }
+  
+  .dropdown-content-pages-ui a:hover 
+  {
+    cursor: pointer;
+    background: linear-gradient(280deg, rgba(96,195,128,1) 0%, rgba(30,155,183,1) 80%);
+    color: #fff;
+  }
+  
+  .dropdown-pages-ui:hover .dropdown-content-pages-ui {z-index: 5;;opacity: 1;transform: translateY(0px);}
+/* dropdown-links-end */
+/* Dropdown Button */
+.dropbtn-useful {
+  background-color: transparent;
+  color: white !important;
+  padding: 1rem 1rem;
+  margin: 5px 0px;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.dropbtn-useful:focus{
+    box-shadow: none !important;
+    color: #ff5500 !important;
+}
+
+/* Dropdown button on hover & focus */
+.dropbtn-useful:hover, .dropbtn-useful:focus {
+  background-color: transparent;
+  color: #ff5500;
+  outline: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown-useful {
+  /* position: relative; */
+  display: inline-block;
+  /* top: 10px; */
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content-useful {
+  display: none;
+  text-align: left;
+  position: absolute;
+  right: 0%;
+  left: 0;
+  min-width: 375px;
+  background-color: #05284A;
+  /* border-radius: 5px; */
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content-useful a {
+  color: #fff;
+  padding: 12px 16px;
+  text-decoration: none !important;
+  display: block;
+  transition: all 0.3s ease;
+  font-weight: bold;
+  /* border-block: 0.2px solid black; */
+}
+.dropdown-content-useful a:hover {
+    color: #ff5500;
+}
+
+/* Change color of dropdown links on hover */
+  
+  /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+  .show-useful {display:block;}
+/* dropdown End */
+
+/* nav-items-seprator */
+.nav-underline-ui::after{
+    content: "";
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #fff !important;
+    transition: width 0.3s ease, background-color 0.3s ease;
+}
+ .nav-underline-ui:hover::after{
+    width: 100%;
+}
+
+/* bottom-nav-end */
+/* Header SECTION END */
+/* Hero-section */
+.hero-btn-ui{
+    justify-content: end;
+}
+.hero-section{
+    background-color: #011C38;
+    margin-bottom: -80px;
+}
+.hero-slider{
+    margin: 60px 0px 140px 0px;
+}
+.form-heading h2{
+    line-height: 3rem;
+    font-weight: bold;
+}
+.hero-form{
+    color: #fff;
+    margin: 60px 0px 140px 0px;
+}
+
+.for-heroicons-ui .col{
+    margin: 7px 1px;
+
+}
+.for-heroicons-ui span{
+    position: absolute;
+    margin-left: 15px;
+    font-size: 20px;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    color: #A5A5A5;
+  }
+ro-slider-border-ui{
+    border-radius: 5px;
+}
+/* hero-section-end */
+/* marque */
+.marquee-wrapper{
+    text-align:center;
+  }
+
+
+  .marquee-inner.to-left{
+    animation: marqueeTop 5s linear infinite;
+  }
+  .marquee-item{
+    width: 230px;
+    height: 230px;
+    display: block;
+    margin:10px;
+    transition: all .2s ease;
+    background:#00cc00;
+  }
+  @keyframes marqueeTop{
+    0% {
+      top: 0;
+    }
+    100% {
+      top: -100%;
+    }
+  }
+  
+  
+/* marquee end */
+
+/* TOP NAV SECTION END */
+
+
+

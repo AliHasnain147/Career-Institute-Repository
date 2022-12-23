@@ -1,0 +1,34 @@
+.card {
+    border-radius: 25px !important;
+    border: 1px solid #757575 !important;
+    padding: 20px;
+    height: 400px;
+}
+
+.bank-details {
+    padding-left: 30px;
+}
+
+.bank-details {
+    padding-left: 50px;
+    padding-top: 50px;
+}
+
+.line-news {
+    height: 4px;
+    width: 60px;
+    background-color: #FF5500;
+}
+
+.underline {
+    color: #757575;
+}
+
+.span-1 {
+    font-weight: bold;
+    color: black;
+}
+
+.note {
+    margin-left: 45px;
+}

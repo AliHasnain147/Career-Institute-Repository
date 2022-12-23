@@ -1,0 +1,38 @@
+.job-para {
+    color: #AFB0B2;
+    font-size: 18px;
+}
+
+.sarkar {
+    width: 300px;
+    padding: 4px;
+    background: linear-gradient(#1E9BB7, #59BF87);
+    border: none;
+    color: white;
+}
+
+.btn-submit {
+    border-radius: 30px;
+    color: white;
+}
+
+.btn-submit {
+    background-image: linear-gradient(to right, #F05A22, #FAAA17);
+    border: none;
+}
+
+.btn-submit:hover {
+    border: 2px solid #F3721E;
+    color: #F05A22;
+    background: none;
+}
+
+.ppp {
+    border: 0.5px solid rgba(132, 124, 124, 0.3);
+    outline: none;
+}
+
+.inpt {
+    border: 2px solid black !important;
+    border-radius: 0% !important;
+}

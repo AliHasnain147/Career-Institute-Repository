@@ -1,0 +1,346 @@
+
+/*------------------------------------------------------------------footer-css-started -------------------------------------------------*/
+.u_1{
+    color: white;
+}
+.cl-1 {
+    margin-bottom: 200px;
+}
+
+.con-4 {
+    margin-left: -50px;
+}
+
+.con-1 {
+    background-color: #333333;
+}
+
+.mm-2 {
+    margin-top: 145px;
+    width: 80%;
+    
+}
+
+.t-1 {
+    margin-left: 26%;
+    font-size: 16px !important;
+    color: #DEDCDE;
+}
+
+.cur {
+    cursor: pointer;
+}
+
+.cur :hover {
+    margin-left: 5px;
+}
+
+.d-1 {
+    color: #ea6645;
+    font-family: 'franklin gothic book';
+    margin-left: 19.7%;
+    font-size: 25px !important;
+    margin-top: 130px;
+}
+
+.t-2 {
+    margin-left: 19.7%;
+}
+
+.sm-line {
+    background-color: #ff5500;
+    width: 53px;
+    height: 3px;
+    margin-left: 19.7%;
+}
+
+.sec-00 p {
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+.sec-00 p:hover {
+    margin-left: 9px;
+}
+
+/* ===================================================================================================================================*/
+
+/*-------------------------------------------------------------------- footer-mediascreen-started -----------------------------------*/
+
+@media screen and (max-width:440px) {
+    .mm-2 {
+        margin-left: -150px;
+    }
+
+    .t-1 {
+        margin-left: 24px;
+    }
+
+    .d-1 {
+        margin-left: 20px;
+    }
+
+    .sm-line {
+        margin-left: 20px;
+        width: 88%;
+    }
+
+    .t-2 {
+        margin-left: 20px;
+    }
+
+    .cl-2 {
+        margin-top: -300px !important;
+    }
+
+    .con-3 {
+        margin-top: -100px !important;
+    }
+
+    .con-4 {
+        margin-top: -100px !important;
+        margin-left: 0px !important;
+    }
+
+}
+
+@media screen and (min-width:480px) and (max-width:768px) {
+    .con-3 {
+        margin-top: -300px !important;
+    }
+
+    .con-4 {
+        margin-top: -300px !important;
+        margin-left: 0px !important;
+    }
+
+    .cl-1 {
+        margin-left: -20px;
+    }
+}
+
+/*======================================================= footer-mediascreen-ended===================================================*/
+
+/* -------------------------------------------------------footer-subscribe-started -------------------------------------------------*/
+.footer-subscribe {
+    background: linear-gradient( #1E9BB7, #4DB791);
+    position: relative !important;
+    top: 80px !important;
+    padding: 0.5rem 0rem 0.5rem 0rem;
+    border-radius: 15px !important;
+}
+
+.footer-contact-form {
+    background-color: white;
+    padding: 9px !important;
+    border-radius: 25px !important;
+}
+
+.footer-input {
+    box-shadow: none !important;
+    border: none !important;
+    font-size: 15px !important;
+    font-weight: 500 !important;
+
+}
+
+.footer-contact-btn {
+    padding: 4px !important;
+    border-radius: 25px !important;
+    background: #011c38 !important;
+    width: 90%;
+}
+
+.footer-contact-icon-btn {
+    margin: 12px !important;
+}
+
+.ff-1 {
+    font-size: 37px !important;
+    color: white;
+}
+
+@media screen and (max-width:280px) {
+    .footer-contact-form {
+        width: 100%;
+    }
+}
+
+/*================================================= fotter-subscribe-ended============================================================ */
+
+/* -------------------------------------------------fotter=social-css-started --------------------------------------------------------*/
+.con_main {
+    background: linear-gradient(#1E9BB7, #4DB791);
+    overflow: hidden;
+}
+.con_main i{
+    margin-top: -19px !important;
+}
+.con_main p{
+    margin-top: -1.5px !important;
+}
+
+.cp-1 {
+    color: white;
+    font-size: 15px !important;
+    margin-top: 21px !important;
+    padding: 17px !important;
+}
+
+.n-1 {
+    padding: 19px;
+    border-radius: 50px;
+    height: 55px;
+    width: 55px !important;
+        
+}
+
+.n-2 {
+    padding: 17px;
+    border-radius: 50px !important;
+    height: 55px !important;
+}
+
+.n-3 {
+    padding: 17px;
+    border-radius: 50px;
+    height: 55px;
+}
+.n-4 {
+    padding: 17px;
+    border-radius: 50px;
+    height: 55px;
+}
+.n-5 {
+    padding: 17px;
+    border-radius: 50px;
+    height: 55px;
+}
+.n-6 {
+    padding: 17px;
+    border-radius: 50px;
+    height: 55px;
+}
+.n-7 {
+    padding: 17px;
+    border-radius: 50px;
+    height: 55px;
+}
+
+
+.n-1:hover {
+    background-color: #3b5998;
+}
+
+.n-2:hover {
+    background-color: #833ab4;
+}
+
+.n-5:hover {
+    background-color: #25d366;
+}
+
+.n-6:hover {
+    background-color: #04669a;
+}
+
+.n-7:hover {
+    background-color: #00b6f1;
+}
+
+.n-4:hover {
+    background-color: #c31a13;
+}
+
+.n-3:hover {
+    background-color: #f7f400;
+}
+@media screen and (min-width:820px) and (max-width:1180px) {
+
+    .con_main_1 {
+        margin-left: -23px !important;
+    }
+
+    .con_main_1 i {
+        margin-left: -2px !important;
+        padding: 1.2rem;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:1050px) {
+
+    .con_main_1 i {
+        margin-left: -2px !important;
+        padding: 1.2rem;
+    }
+
+    .n-1 {
+        height: 50px;
+        width: 50px;
+        padding: 9px;
+        text-align: center !important;
+        padding-bottom: 12px !important;
+        border-radius: 50%;
+    }
+
+    .n-2 {
+        height: 50px;
+        width: 50px;
+        padding: 9px;
+        text-align: center !important;
+        padding-bottom: 12px !important;
+        border-radius: 50%;
+    }
+
+    .n-3 {
+        height: 50px;
+        width: 50px;
+        padding: 9px;
+        text-align: center !important;
+        padding-bottom: 12px !important;
+        border-radius: 50%;
+
+    }
+
+    .n-4 {
+        height: 50px;
+        width: 50px;
+        padding: 9px;
+        text-align: center !important;
+        padding-bottom: 12px !important;
+        border-radius: 50%;
+    }
+
+    .n-5 {
+        height: 50px;
+        width: 50px;
+        padding: 9px;
+        text-align: center !important;
+        padding-bottom: 12px !important;
+        border-radius: 50%;
+    }
+
+    .n-6 {
+        height: 50px;
+        width: 50px;
+        padding: 9px;
+        text-align: center !important;
+        padding-bottom: 12px !important;
+        border-radius: 50%;
+    }
+
+    .n-7 {
+        height: 50px;
+        width: 50px;
+        padding: 9px;
+        text-align: center !important;
+        padding-bottom: 12px !important;
+        border-radius: 50%;
+    }
+}
+
+/* ===================================================fotter-social-css-started======================================================*/
+.con_main_1{
+    color: white !important;
+}
+

@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* <!-- counter app css --> */
+.plus {
+    color: #46c3e8;
+    font-size: 50px;
+    float: left;
+}
+
+
+#funfact-area {
+
+    box-shadow: 0 1rem 5rem rgb(0 0 0 / 50%);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+    position: relative;
+    z-index: 1;
+    padding: 40px 0px;
+    margin: 0px 45px;
+    border-radius: 15px;
+}
+
+#funfact-area:after {
+    border-radius: 15px;
+    background-color: #333333;
+    content: "";
+    left: 0;
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.funfact-icon {
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 5px;
+}
+
+.single-funfact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.funfact-text {
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    padding-left: 20px;
+    text-transform: capitalize;
+    border-left: 2px solid #fff;
+}
+
+.funfact-text h1 {
+    color: #fff;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.funfact-text,
+.funfact-icon {
+    vertical-align: middle;
+}
+
+/*== FunFact CSS End ==*/

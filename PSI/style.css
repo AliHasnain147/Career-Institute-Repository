@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.text a{
+    text-decoration: none;
+    color: rgb(116, 111, 111);
+    font-size: 15px;
+}
+.text a:hover{
+    color: black;
+}
+
+
+/* Person Button Start */
+.pearson-content-btn {
+    color: #fff;
+    padding: 8px 50px;
+    border: 3px solid #ffa763;
+    border-radius: 35px;
+    background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(101deg, #ef5323, #fbb016);
+    font-size: 22px;
+    /* margin-top: 30px;     */
+    font-weight: bold;
+    transition: all 0.2s linear;
+    cursor: pointer;
+}
+
+.pearson-content-btn:hover {
+    color: #F47D20;
+    border: solid 3px transparent;
+    background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(101deg, #ef5323, #fbb016);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    box-shadow: 2px 1000px 1px #fff inset;
+    transition: all 0.2s ease;
+}
+
+/* Person Button End */
+
+
+
+
+
+.sm-line {
+    background-color: #FF8B60;
+    width: 53px;
+    height: 3px;
+    margin-left: 20px;
+}
+
+/* PSI-Start */
+.real-estate-ui {
+    background-image: url(image/Realestate.jpg);
+}
+
+.insurance-ui {
+    background-image: url(image/Insurance.jpg);
+}
+
+.Cosmetology-ui {
+    background-image: url(image/cosmetology.jpg);
+}
+
+.Construction-ui {
+    background-image: url(image/construction.jpg);
+}
+
+.Health-ui {
+    background-image: url(image/Healthcare.jpg);
+}
+
+.Information-ui {
+    background-image: url(image/IT.jpg);
+}
+
+.gallery-ui {
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 15rem;
+    border-radius: 30px;
+}
+
+.overlay-PSI-gallery-ui {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 15px;
+    right: 15px;
+    z-index: 0;
+    border-radius: 30px;
+    opacity: 0.4;
+}
+
+.gallery-ui h2 {
+    z-index: 1;
+}
+
+/* PSI-End */

@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.text a{
+    text-decoration: none;
+    color: rgb(116, 111, 111);
+    font-size: 15px;
+}
+.text a:hover{
+    color: black;
+}
+
+/* Person image Start */
+
+.pearson{
+    padding-top: 30px;
+}
+.pearson-body-ui {
+    background-image: url(image/PVUE-image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.pearson-body-bottom-ui{
+    background-color: #333333;
+}
+
+/* Person image End */
+
+
+
+/* Person Button Start */
+.pearson-content-btn {
+    color: #fff;
+    padding: 8px 50px;
+    border: 3px solid #ffa763;
+    border-radius: 35px;
+    background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(101deg, #ef5323, #fbb016);
+    font-size: 22px;
+    /* margin-top: 30px;     */
+    font-weight: bold;
+    transition: all 0.2s linear;
+    cursor: pointer;
+}
+
+.pearson-content-btn:hover {
+    color: #F47D20;
+    border: solid 3px transparent;
+    background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(101deg, #ef5323, #fbb016);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    box-shadow: 2px 1000px 1px #fff inset;
+    transition: all 0.2s ease;
+}
+
+/* Person Button End */
+
+
+
+
+
+.sm-line {
+    background-color: #FF8B60;
+    width: 53px;
+    height: 3px;
+    margin-left: 20px;
+}
+
